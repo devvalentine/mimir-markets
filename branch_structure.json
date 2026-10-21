@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-386-fix-ui-use-the-locale-aware-link-in-the-council",
+    "fix/issue-462-perf-ui-pause-revenue-dashboard-polling-while",
+    "main",
+    "origin",
+    "security/issue-443-feat-security-fence-untrusted-input-in-the-paid",
+    "security/issue-450-feat-security-cap-the-history-parameter-on-paid"
+  ],
+  "parent": {
+    "fix/issue-386-fix-ui-use-the-locale-aware-link-in-the-council": "main",
+    "fix/issue-462-perf-ui-pause-revenue-dashboard-polling-while": "main",
+    "main": null,
+    "origin": "main",
+    "security/issue-443-feat-security-fence-untrusted-input-in-the-paid": "main",
+    "security/issue-450-feat-security-cap-the-history-parameter-on-paid": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-386-fix-ui-use-the-locale-aware-link-in-the-council",
+    "fix/issue-462-perf-ui-pause-revenue-dashboard-polling-while",
+    "origin",
+    "security/issue-443-feat-security-fence-untrusted-input-in-the-paid",
+    "security/issue-450-feat-security-cap-the-history-parameter-on-paid"
+  ]
+}
