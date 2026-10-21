@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { readContractActivity } from "@/lib/server/contract-activity";
 import { readAgentBalances } from "@/lib/agent-wallets";
 import { getExplorerAddressUrl, getExplorerTxUrl } from "@/lib/stellar";
